@@ -11,7 +11,7 @@ var bio = {
 		twitter: "@user",
 		location: "Southern California"
 	},
-	welcomeMessage: "Welcome to my online resume!",
+	welcomeMessage: "Welcome to my online resume! Here you'll find a history of my work, projects, and education.",
 	skills: ["HTML, CSS, & Bootstrap", "JavaScript & jQuery", "SQL", "Database Administration", "Teaching"],
 	biopic: "images/biopic.jpg",
 	display: function() {
@@ -215,17 +215,17 @@ var education = {
 	}
 };
 
-$("#main").append(internationalizeButton);
-function inName() {
-	var index = 0;
-	while (bio.name[index] !== " ") {
-		index++;
-	}
-	var firstName = bio.name[0].toUpperCase() + bio.name.slice(1, index).toLowerCase();
-	var lastName = bio.name.slice(index).toUpperCase();
+// $("#main").append(internationalizeButton);
+// function inName() {
+// 	var index = 0;
+// 	while (bio.name[index] !== " ") {
+// 		index++;
+// 	}
+// 	var firstName = bio.name[0].toUpperCase() + bio.name.slice(1, index).toLowerCase();
+// 	var lastName = bio.name.slice(index).toUpperCase();
 
-	return firstName + lastName;
-}
+// 	return firstName + lastName;
+// }
 
 bio.display();
 work.display();
