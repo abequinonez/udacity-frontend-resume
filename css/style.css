@@ -317,6 +317,18 @@ h5 {
 }
 
 @media only screen and (max-width:900px) {
+ /* h1,
+  .role {
+    text-align: center;
+  }*/
+
+  h1,
+  .role {
+    display: block;
+    /*padding: 0;*/
+    text-align: center;
+  }
+
   .biopic {
     width: 175px;
   }
