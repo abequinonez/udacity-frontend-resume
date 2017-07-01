@@ -239,7 +239,7 @@ a {
 p {
   font-size: 18px;
   color: #333;
-  line-height: 26px;
+  line-height: 28px;
 }
 
 img {
@@ -251,6 +251,10 @@ img {
 .online-classes {
   padding-top: 15px;
   color: #333;
+}
+
+.url {
+  overflow-wrap: break-word;
 }
 
 .map-heading {
@@ -345,11 +349,7 @@ h5 {
   h1,
   .role,
   h2,
-  h3,
-  .entry-title,
-  .location-text,
-  .date-text,
-  p {
+  h3 {
     text-align: center;
   }
 
@@ -465,7 +465,11 @@ h5 {
 }
 
 @media only screen and (max-width: 749px) {
-
+  .biopic {
+    display: block;
+    margin: 7px auto 10px;
+    float: none;
+  }
 
    #skills {
     text-align: center;
