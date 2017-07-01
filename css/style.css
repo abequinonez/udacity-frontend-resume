@@ -53,7 +53,8 @@ body {
 
 .center-content {
   /*padding: 2% 2.5%;*/
-  padding: 22px 27.5px;
+  /*padding: 22px 27.5px;*/
+  padding: 22px 27.5px 25px;
   /*margin: 2.5% 5% 0;*/
 }
 
@@ -100,7 +101,7 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px;
+  padding: 7px;
 }
 
 .flex-column {
@@ -109,6 +110,10 @@ ul {
   flex-wrap: nowrap;
   /*padding: 10px;*/
   padding: 7px;
+}
+
+.contact-item {
+  line-height: 25px;
 }
 
 .orange-text {
