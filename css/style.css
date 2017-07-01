@@ -198,7 +198,7 @@ h2 {
 }
 
 .work-entry, .project-entry, .education-entry {
-  padding: 20px 0;
+  padding: 15px 0;
   border-bottom: 1px solid rgba(0,0,0,0.16);
 }
 
@@ -212,6 +212,12 @@ a {
   text-decoration: none;
   /*margin-top: 10px;*/
   display: block;
+}
+
+.entry-title {
+  margin-bottom: 5px;
+  font-size: 18px;
+  line-height: 25px
 }
 
 .location-text {
@@ -243,7 +249,7 @@ img {
 }
 
 .online-classes {
-  padding-top: 20px;
+  padding-top: 15px;
   color: #333;
 }
 
@@ -339,8 +345,40 @@ h5 {
   h1,
   .role,
   h2,
-  h3 {
+  h3,
+  .entry-title,
+  .location-text,
+  .date-text,
+  p {
     text-align: center;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 5px;
+  }
+
+  .location-text,
+  .date-text {
+    float: none;
+    padding-bottom: 5px;
+  }
+
+/*  .location-text {
+    padding-bottom: 10px;
+  }
+
+  .date-text {
+    padding-bottom: 5px;
+  }*/
+
+  p {
+    padding-top: 5px;
+  }
+
+  br {
+    display: none;
   }
 
   .biopic {
