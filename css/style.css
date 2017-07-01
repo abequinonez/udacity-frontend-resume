@@ -427,17 +427,30 @@ h5 {
 }
 
 @media only screen and (max-width: 749px) {
+
+
    #skills {
     text-align: center;
     /*line-height: 25px;*/
   }
+
+
 }
 
-/*@media only screen and (max-width: 500px) {
-  .container {
+@media only screen and (max-width: 500px) {
+/*  .container {
     margin: 0 1%;
+  }*/
+
+  .center-content,
+  .center-div {
+    padding: 4% 4.5%;
   }
-}*/
+
+  .online-classes {
+    padding-top: 4.4%
+  }
+}
 
 /*#mapDiv {
   padding: 0;
