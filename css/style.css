@@ -107,7 +107,8 @@ ul {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  padding: 10px;
+  /*padding: 10px;*/
+  padding: 7px;
 }
 
 .orange-text {
@@ -156,6 +157,14 @@ h3 {
 
 .extra-padding {
   padding: 10px 0;
+}
+
+.skill-item {
+  padding-bottom: 6px;
+}
+
+.skill-item:last-of-type {
+  padding-bottom: 0;
 }
 
 
