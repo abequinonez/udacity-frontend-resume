@@ -109,11 +109,13 @@ ul {
   flex-direction: column;
   flex-wrap: nowrap;
   /*padding: 10px;*/
-  padding: 7px;
+  /*padding: 7px;*/
+  padding: 7px 7px 0;
+
 }
 
 .contact-item {
-  line-height: 25px;
+  line-height: 30px;
 }
 
 .orange-text {
@@ -165,7 +167,7 @@ h3 {
 }
 
 .skill-item {
-  padding-bottom: 6px;
+  padding-bottom: 10px;
 }
 
 .skill-item:last-of-type {
@@ -342,12 +344,37 @@ h5 {
     padding-bottom: 15%;
   }*/
 
+/*  .center-content {
+    padding-bottom: 20px;
+  }*/
+
   .biopic {
     width: 150px;
   }
+
   .welcome-message {
     display: none;
   }
+
+/*  #skills {
+    text-align: center;
+    line-height: 25px;
+  }
+
+  .flex-column {
+    display: block;
+  }
+
+  .skill-item {
+    display: inline;
+    padding-bottom: 0;
+    padding-right: 8px;
+  }*/
+
+/*  .skill-item:not(:first-child):before {
+    content: "| ";
+    padding: 0 10px;
+  }*/
 }
 
 /*@media only screen and (max-width: 700px) {
@@ -360,6 +387,37 @@ h5 {
   #skills-h3,
   .biopic {
     display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 749px) {
+  .center-content {
+    padding-bottom: 20px;
+  }  
+
+  #skills {
+    /*text-align: center;*/
+    line-height: 30px;
+  }
+
+  .flex-column {
+    /*flex-direction: row;*/
+    display: block;
+    padding: 0;
+    /*padding-bottom: 0;*/
+  }
+
+  .skill-item {
+    display: inline;
+    padding-bottom: 0;
+    padding-right: 8px;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+   #skills {
+    text-align: center;
+    /*line-height: 25px;*/
   }
 }
 
