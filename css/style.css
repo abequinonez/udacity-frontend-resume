@@ -160,6 +160,7 @@ h3 {
   color: #ffcc00;
   font-weight: 600;
   display: none;
+  text-align: left;
 }
 
 .extra-padding {
@@ -324,10 +325,21 @@ h5 {
     text-align: center;
   }*/
 
+  .container {
+    margin: 0 2.5%;
+  }
+
   h1,
   .role {
     display: block;
     /*padding: 0;*/
+    /*text-align: center;*/
+  }
+
+  h1,
+  .role,
+  h2,
+  h3 {
     text-align: center;
   }
 
@@ -420,6 +432,12 @@ h5 {
     /*line-height: 25px;*/
   }
 }
+
+/*@media only screen and (max-width: 500px) {
+  .container {
+    margin: 0 1%;
+  }
+}*/
 
 /*#mapDiv {
   padding: 0;
