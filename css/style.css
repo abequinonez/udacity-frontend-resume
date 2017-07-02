@@ -48,8 +48,8 @@ body {
 
 .nav-link a {
   padding: 16px 0;
-  font-size: 18px;
   color: #fff;
+  font-size: 18px;
 }
 .nav-link a:hover {
   background-color: #000;
@@ -71,10 +71,10 @@ body {
 }
 
 h1 {
-  font-size: 50px;
-  color: #fff;
-  line-height: 48px;
   display: inline;
+  color: #fff;
+  font-size: 50px;
+  line-height: 48px;
 }
 
 span {
@@ -83,8 +83,8 @@ span {
 
 .role {
   padding: 8px;
-  font-size: 1.5em;
   color: #ffcc00;
+  font-size: 1.5em;
 }
 
 hr {
@@ -127,32 +127,32 @@ ul {
 }
 
 .biopic {
-  float: left;
-  margin: 7px 16px 0 0;
-  padding: 10px;
-  width: 200px;
-  background-color: #fff;
   display: none;
+  float: left;
+  width: 200px;
+  padding: 10px;
+  margin: 7px 16px 0 0;
+  background-color: #fff;
 }
 
 .welcome-message {
   padding-left: 0;
+  color: #f3f3f3;
   font-style: italic;
   font-size: 18px;
-  color: #f3f3f3;
   line-height: 28px;
 }
 
 h3 {
-  font-size: 22px;
   color: #000;
+  font-size: 22px;
   line-height: 24px;
 }
 
 #skills-h3 {
+  display: none;
   color: #ffcc00;
   font-weight: 600;
-  display: none;
   text-align: left;
 }
 
@@ -181,9 +181,9 @@ h3 {
 }
 
 h2 {
+  color: #333;
   font-weight: bold;
   font-size: 30px;
-  color: #333;
   line-height: 29px;
 }
 
@@ -198,9 +198,9 @@ h2 {
 }
 
 a {
+  display: block;
   color: #1199c3;
   text-decoration: none;
-  display: block;
 }
 
 .entry-title {
@@ -210,31 +210,31 @@ a {
 }
 
 .location-text {
+  float: right;
+  color: #999;
   font-style: italic;
   font-size: 14px;
-  color: #999;
   line-height: 16px;
-  float: right;
 }
 
 .date-text {
+  float: left;
+  color: #999;
   font-style: italic;
   font-size: 14px;
-  color: #999;
   line-height: 16px;
-  float: left;
 }
 
 p {
-  font-size: 18px;
   color: #333;
+  font-size: 18px;
   line-height: 28px;
 }
 
 img {
-  padding: 10px 10px 5px;
   width: 300px;
   max-width: 100%;
+  padding: 10px 10px 5px;
 }
 
 .online-classes {
@@ -294,8 +294,8 @@ img {
 
   img {
     display: block;
-    margin: 0 auto;
     padding: 10px 0 5px;
+    margin: 0 auto;
   }
 
   .location-text,
@@ -337,7 +337,7 @@ img {
 @media only screen and (min-width: 600px) and (max-width: 749px) {
   .center-content {
     padding-bottom: 20px;
-  }  
+  }
 
   #skills {
     line-height: 30px;
