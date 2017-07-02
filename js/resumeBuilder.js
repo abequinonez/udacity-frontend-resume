@@ -91,9 +91,15 @@ var work = {
 var projects = {
 	projects: [
 		{
+			title: "Portfolio",
+			dates: "2017",
+			description: "Created a portfolio as part of the Udacity Front-End Web Developer Nanodegree Program. The project guidelines called for a responsive portfolio site incorporating a grid system. The site was built using HTML, CSS, and Bootstrap. Additional resources include jQuery (required for the Bootstrap navbar), Picturefill (responsive image polyfill for browsers without picture element support), and Font Awesome (social media icons).",
+			images: ["images/portfolio.png"]
+		},
+		{
 			title: "World City Info Page",
 			dates: "2017",
-			description: "Created a world city info page as part of an embedded SQL class project.",
+			description: "Created a world city info page as part of an embedded SQL class project. The page was built using a combination of HTML, CSS, Bootstrap, PHP, and SQL. The PHP code does most of the work, since it communicates with a MySQL database to display a list of options, retrieve the user's selection from the database, and then dynamically create HTML to present the requested information.",
 			images: ["images/world.png"]
 		},
 		{
