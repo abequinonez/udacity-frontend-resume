@@ -28,34 +28,6 @@ body {
 }
 
 
-/* Navbar */
-/* Responsive navbar developed with help from sitepoint and Stack Overflow */
-.navbar {
-  width: 100%;
-  background-color: #333;
-}
-
-.nav-list {
-  overflow: hidden;
-  text-align: center;
-}
-
-.nav-link {
-  list-style-type: none;
-  float: left;
-  width: 33.333333%;
-}
-
-.nav-link a {
-  padding: 16px 0;
-  color: #fff;
-  font-size: 18px;
-}
-.nav-link a:hover {
-  background-color: #000;
-}
-
-
 /* Header */
 #header,
 .footer {
@@ -166,6 +138,34 @@ h3 {
 
 .skill-item:last-of-type {
   padding-bottom: 0;
+}
+
+
+/* Navbar */
+/* Responsive navbar developed with help from sitepoint and Stack Overflow */
+.navbar {
+  width: 100%;
+  background-color: #222;
+}
+
+.nav-list {
+  overflow: hidden;
+  text-align: center;
+}
+
+.nav-link {
+  list-style-type: none;
+  float: left;
+  width: 33.333333%;
+}
+
+.nav-link a {
+  padding: 16px 0;
+  color: #fff;
+  font-size: 18px;
+}
+.nav-link a:hover {
+  background-color: #000;
 }
 
 
