@@ -1,5 +1,7 @@
 /*
-This is empty on purpose! Your code to build the resume will go here.
+The following four objects contain the resume information. Each
+object also contains a display function for appending the information
+to the page.
  */
 var bio = {
 	name: "Abraham Quinonez",
@@ -82,7 +84,7 @@ var work = {
 			$(".work-entry:last").append(formattedWorkDates);
 			$(".work-entry:last").append(formattedWorkLocation);
 			$(".work-entry:last").append(formattedWorkDesc);
-		});	
+		});
 	}
 };
 
@@ -142,12 +144,12 @@ var projects = {
 				var formattedProjImage = HTMLprojectImage.replace("%data%", project.images[i]);
 				$(".project-entry:last").append(formattedProjImage);
 			}
-		});	
+		});
 	}
 };
 
 var education = {
-	schools: [ 
+	schools: [
 		{
 			name: "Victor Valley College",
 			location: "Victorville, CA",
@@ -215,6 +217,18 @@ var education = {
 	}
 };
 
+// This function appends the Google map to the page
+function appendMap() {
+	$("#mapDiv").append(googleMap);
+}
+
+bio.display();
+work.display();
+projects.display();
+education.display();
+appendMap();
+
+// I've disabled the internationalize button for now
 // $("#main").append(internationalizeButton);
 // function inName() {
 // 	var index = 0;
@@ -226,10 +240,3 @@ var education = {
 
 // 	return firstName + lastName;
 // }
-
-bio.display();
-work.display();
-projects.display();
-education.display();
-
-$("#mapDiv").append(googleMap);
