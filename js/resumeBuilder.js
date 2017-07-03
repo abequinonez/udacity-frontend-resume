@@ -2,7 +2,7 @@
 The following four objects contain the resume information. Each
 object also contains a display function for appending the information
 to the page.
- */
+*/
 var bio = {
 	name: "Abraham Quinonez",
 	role: "Web Developer",
