@@ -105,19 +105,19 @@ var projects = {
 		{
 			title: "GUI Tic-Tac-Toe",
 			dates: "2017",
-			description: "Created a GUI-based tic-tac-toe game using Java and the Swing toolkit as part of a class project.",
+			description: "Created a GUI-based tic-tac-toe game using Java and the Swing toolkit as part of a class project. The game board and other various components are created using Swing objects (JFrame, JPanel, JButton, etc.). Players, X and O, take turns making moves by clicking on empty squares. If the square is available, it will be filled with the mark of the current player. After each successful move, the program will check if the game is over or has been tied. If the game is won or tied, a button for starting a new game will become available.",
 			images: ["images/ttt.png"]
 		},
 		{
 			title: "Tournament Results",
 			dates: "2017",
-			description: "Created a program that connects a Python module to a PostgreSQL database for keeping track of players and matches in a Swiss-style tournament.",
+			description: "Created a program that connects a Python module to a PostgreSQL database for keeping track of players and matches in a Swiss-style tournament. Part of the project guidelines called for a number of SQL queries to efficiently report the results of the tournament and determine the winner. As part of the program, a test is run to determine whether or not the Python module can successfully interact with the database.",
 			images: ["images/tournament.png"]
 		},
 		{
 			title: "GUI Quiz Tutor",
 			dates: "2017",
-			description: "Created a program that implements a GUI-based multiple choice quiz using Java and the Swing toolkit as part of a class project.",
+			description: "Created a program that implements a GUI-based multiple choice quiz using Java and the Swing toolkit as part of a class project. The program asks the user to select from two user types, student and supervisor. As a student, the user can take a quiz and save their score. As a supervisor, the user can add questions and view scores.",
 			images: ["images/quiz.png"]
 		},
 		{
